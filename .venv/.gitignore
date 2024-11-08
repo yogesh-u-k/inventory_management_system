@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# VS Code settings
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+*.log
+
+# MacOS and Linux files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# MySQL and other database configuration files
+*.db
+*.sqlite3
+
+# Sensitive environment variable files (e.g., containing database credentials, API keys)
+*.env
+.env.*
+
+# FastAPI generated folders
+*.pyc
+*.pyo
+
+# Coverage and testing results
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.cache
+
+# IDE configurations
+.idea/
+
+# Static files
+staticfiles/
+media/
+
+# Documentation builds
+/site
+
+# Dependencies
+__pypackages__/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+Pipfile.lock
+
+# Deployment-related files
+*.pem
+*.key
+Dockerfile
+docker-compose.yml
+*.bak
+*.swp
+*.swo
